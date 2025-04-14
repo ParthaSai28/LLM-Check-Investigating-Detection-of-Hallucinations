@@ -1,5 +1,9 @@
 # LLM-Check-Investigating-Detection-of-Hallucinations
 
+Group Members: 
+1.   Partha Sai Aurangabadkar (partha.aurangabadkar@torontomu.ca)
+2.   Sai Seena Pulluru (saiseena.pulluru@torontomu.ca)
+
 This repository contains code for the implementation of NeurIPS 2024 paper [LLM-Check: Investigating Detection of Hallucinations in Large Language Models](https://openreview.net/forum?id=LYx4w3CAgy).
 
 
