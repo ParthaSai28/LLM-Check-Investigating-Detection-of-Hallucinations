@@ -53,12 +53,12 @@ We compare the overall runtime cost of the proposed detection scores with other 
 1. Install required packages from `environment.yml` file with Python 3.10.12
 2. Download files for specific datasets as required. For instance, to run on the FAVA-Bench (Human Annotated) dataset, please download the json file hosted [[here](https://huggingface.co/datasets/fava-uw/fava-data/blob/main/annotations.json)], and save it at the top-level directory. 
 3. The `run_detection_combined.py` script is used to detect hallucinations using different scores. This can be executed using the `run.sh` file, where different configurations can be specified.
-4. The scores so selected will be saved to disk in the `/data` folder.
+4. The scores so selected will be saved to disk in the `src/data` folder.
 
 
 The dataset specific utils such as `utils_selfcheck.py` are used to load the dataset loading function and the dataset-specific iterators which will internally call the score computations. 
 
-The final scores are saved in the `/data` folder, and can be analyzed using the `check_scores_XYZ.ipynb` file to analyze the scores, plots etc. This can be done without a GPU as the scores are already computed and saved. 
+The final scores are saved in the `src/data` folder, and can be analyzed using the `check_scores_XYZ.ipynb` file to analyze the scores, plots etc. This can be done without a GPU as the scores are already computed and saved. 
 
 
 ## Citing this Work
