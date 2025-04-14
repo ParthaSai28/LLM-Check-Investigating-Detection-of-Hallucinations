@@ -1,6 +1,6 @@
 # LLM-Check-Investigating-Detection-of-Hallucinations
 
-Group Members: 
+Group Members:  
 1.   Partha Sai Aurangabadkar (partha.aurangabadkar@torontomu.ca)
 2.   Sai Seena Pulluru (saiseena.pulluru@torontomu.ca)
 
